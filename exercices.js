@@ -1,4 +1,5 @@
-// Exercice 4 - Numbers et Strings
+/* 
+Exercice 4 - Numbers et Strings
 // Variables List
 var name = 'Ricardo';
 var a = 33.89;
@@ -36,13 +37,26 @@ console.log(nuberFloat);
 console.log(positionString);
 console.log(myNewString);
 console.log(concatString);
-
+*/
 
 
 
 
 // Exercice 4 - Operators
 // Variables List
+var a = 333;
+var b = 77;
+var resultAdd = a + b;
+var resultSoustraction = a - b;
+var resultMulti = a * b;
+var resultDiv = a / b;
+var resultModulo = a % b;
+
 
 
 // Console log list
+console.log(resultAdd);
+console.log(resultSoustraction);
+console.log(resultMulti);
+console.log(resultDiv);
+console.log(resultModulo);
