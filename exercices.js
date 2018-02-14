@@ -15,6 +15,15 @@ var dNumber = parseInt(dString);
 var eString = "33.47";
 var nuberFloat = parseFloat(eString);
 
+var myString = "Salut Ricardo";
+var positionString = myString.indexOf("Ricardo");
+var myNewString = myString.replace("Ricardo", "Natacha");
+
+var helloString = "Hello";
+var nameString = "Ricardo";
+var concatString = helloString + " " + nameString;
+
+
 // Console log list
 console.log(name);
 console.log(a);
@@ -24,6 +33,9 @@ console.log(nameLength);
 console.log(cNumber);
 console.log(dNumber);
 console.log(nuberFloat);
+console.log(positionString);
+console.log(myNewString);
+console.log(concatString);
 
 
 
