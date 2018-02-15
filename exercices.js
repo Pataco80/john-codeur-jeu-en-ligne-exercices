@@ -42,7 +42,7 @@ Fin exercice 3 */
 
 
 
-/* Exercice 4 - Operators
+// Exercice 4 - Operators
 // Variables List
 var a = 333;
 var b = 77;
@@ -64,4 +64,4 @@ console.log(resultDiv);
 console.log(resultModulo);
 console.log(plusplus);
 
-Fin exercice 4 */
+//Fin exercice 4
