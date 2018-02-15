@@ -115,11 +115,11 @@ if (30 == 60) {
 }
 
 // L'exemple de John
-var speed = 121;
-var limiteVitesse = 80;
-var limiteLenteur = 60;
-var lenteurDangereuse = 40;
-var vitesseDangereuse = 120;
+var speed = 121,
+    limiteVitesse = 80,
+    limiteLenteur = 60,
+    lenteurDangereuse = 40,
+    vitesseDangereuse = 120;
 
 if (speed > vitesseDangereuse) {
     console.log("Tu roules dangereusement! Ralentis vite!");
