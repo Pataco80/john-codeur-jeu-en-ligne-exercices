@@ -114,5 +114,16 @@ if (30 == 60) {
     console.log("Acune condition n'est respectée !"); // Si aucunes conditions si dessus n'est respectée, il affichera ce message
 }
 
+// L'exemple de John
+var speed = 30;
+var limiteVitesse = 80;
+var limiteLenteur = 40;
 
+if (speed > limiteVitesse) {
+    console.log("Tu roules trop vite ! Ralentis !");
+} else if (speed < limiteLenteur) {
+    console.log("Tu roules trop lentement ! Accélère !");
+} else {
+    console.log("Tu à une bonne vitesse.");
+}
 // Fin exercice 7
