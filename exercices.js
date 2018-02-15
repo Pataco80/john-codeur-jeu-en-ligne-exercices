@@ -132,4 +132,22 @@ if (speed > vitesseDangereuse) {
 } else {
     console.log("Tu à une bonne vitesse.");
 }
+
+
+// Switch
+
+switch ("blue") {
+    case "blue":
+        console.log("Le bleu est la couleur du ciel");
+        break;
+    case "red":
+        console.log("Le vert est la couleur de l'herbe");
+        break;
+    case "yellow":
+        console.log("Le jaune est la couleur du soleil");
+        break;
+    default:
+        console.log("Le monde est plein de couleurs");
+
+}
 // Fin exercice 7
