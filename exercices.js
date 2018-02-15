@@ -79,7 +79,7 @@ var myBoolean2 = (a <= 3 || b < 23); // Si (a est inférieur ou égal à 3) ou (
 // Console log list
 console.log(myBoolean); // Comparation "AND"
 console.log(myBoolean2); // Comparation "OR"
-*/
+
 
 // Tableau
 console.log("Tableau AND");
@@ -99,16 +99,20 @@ console.log("Tableau NOT");
 console.log(!true);
 console.log(!false);
 
-//Fin exercice 6
+//Fin exercice 6*/
 
 
 
 // Exercice 7 - Conditions
-// Variables List
+
+// Mon test perso
+if (30 == 60) {
+    console.log("30 est bien plus petit que 60, la condition est remplie !"); // 30 n'étant pas égal à 60, il passe à la condition 2
+} else if (60 >= 30) {
+    console.log("60 est bien supérieur à 30, la condition est remplie !"); // La condition 2 est bien remplie, c'est ce message qui s'affiche
+} else {
+    console.log("Acune condition n'est respectée !"); // Si aucunes conditions si dessus n'est respectée, il affichera ce message
+}
 
 
-
-// Console log list
-
-
-//Fin exercice 7
+// Fin exercice 7
