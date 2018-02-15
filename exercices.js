@@ -65,3 +65,15 @@ console.log(resultModulo);
 console.log(plusplus);
 
 //Fin exercice 5
+
+
+
+// Exercice 6 - Boleans et Comparateurs
+// Variables List
+
+
+
+// Console log list
+
+
+//Fin exercice 6
