@@ -42,7 +42,7 @@ Fin exercice 4 */
 
 
 
-// Exercice 5 - Operators
+/* Exercice 5 - Operators
 // Variables List
 var a = 333;
 var b = 77;
@@ -64,16 +64,39 @@ console.log(resultDiv);
 console.log(resultModulo);
 console.log(plusplus);
 
-//Fin exercice 5
+//Fin exercice 5 */
 
 
 
-// Exercice 6 - Boleans et Comparateurs
+/* Exercice 6 - Boleans et Comparateurs
 // Variables List
-
+var a = 5;
+var b = 12;
+var myBoolean = (a <= 2 && b === 12); // Si (a est inférieur ou égal à 2) et (b est strictement égal à 12) Réponse false car une des 2 conditions n'est pas correcte
+var myBoolean2 = (a <= 3 || b < 23); // Si (a est inférieur ou égal à 3) ou (b est inférieur à 23) Réponse true car une des 2 coditions est exacte. La 2ème en locurence
 
 
 // Console log list
+console.log(myBoolean); // Comparation "AND"
+console.log(myBoolean2); // Comparation "OR"
+*/
 
+// Tableau
+console.log("Tableau AND");
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
+
+console.log("Tableau OR");
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+
+// Not
+console.log("Tableau NOT");
+console.log(!true);
+console.log(!false);
 
 //Fin exercice 6
