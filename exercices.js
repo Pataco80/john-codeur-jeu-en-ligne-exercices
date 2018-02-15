@@ -100,3 +100,15 @@ console.log(!true);
 console.log(!false);
 
 //Fin exercice 6
+
+
+
+// Exercice 7 - Conditions
+// Variables List
+
+
+
+// Console log list
+
+
+//Fin exercice 7
