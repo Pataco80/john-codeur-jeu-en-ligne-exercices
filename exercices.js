@@ -135,13 +135,14 @@ if (speed > vitesseDangereuse) {
 
 
 // Switch
-
-switch ("blue") {
+var couleurDuMonde = "red";
+switch (couleurDuMonde) {
     case "blue":
         console.log("Le bleu est la couleur du ciel");
         break;
     case "red":
-        console.log("Le vert est la couleur de l'herbe");
+    case "rose":
+        console.log("Mes roses préférées sont de couleur rose ou rouge");
         break;
     case "yellow":
         console.log("Le jaune est la couleur du soleil");
