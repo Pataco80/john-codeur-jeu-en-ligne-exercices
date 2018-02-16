@@ -68,7 +68,7 @@ console.log(plusplus);
 
 
 
-/* Exercice 6 - Boleans et Comparateurs
+/* Exercice 7 - Boleans et Comparateurs
 // Variables List
 var a = 5;
 var b = 12;
@@ -99,11 +99,11 @@ console.log("Tableau NOT");
 console.log(!true);
 console.log(!false);
 
-//Fin exercice 6*/
+//Fin exercice 7*/
 
 
 
-/* Exercice 7 - Conditions
+/* Exercice 8 - Conditions
 
 // Mon test perso
 if (30 == 60) {
@@ -151,11 +151,11 @@ switch (couleurDuMonde) {
         console.log("Le monde est plein de couleurs");
 
 }
-// Fin exercice 7*/
+// Fin exercice 8*/
 
 
 
-// Exercice 8 - Boucles
+// Exercice 9 - Boucles
 /* While
 console.log("While");
 
@@ -182,12 +182,12 @@ var number = 0;
 for (number; number < 10; number++) {
     console.log(number);
 }
- Fin exercice 8 */
+ Fin exercice 9 */
 
 
 
 
-// Exercice 9 - Les Fonctions
+/* Exercice 10 - Les Fonctions
 // Déclaration des variables
 
 var a = 4;
@@ -201,4 +201,23 @@ function calcul(number1, number2, number3, number4) {
 
 // Liste des console.log
 console.log(resultat);
-// Fin exercice 9
+Fin exercice 10*/
+
+
+
+
+/* Exercice 11 - Les Fonctions
+// Déclaration des variables
+
+var a = 4;
+var b = 3;
+var c = 8;
+var resultat = calcul(a, b, a, c);
+
+function calcul(number1, number2, number3, number4) {
+    return number1 * number2 * number3 / number4;
+}
+
+// Liste des console.log
+console.log(resultat);
+Fin exercice 11*/
