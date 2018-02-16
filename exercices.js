@@ -175,11 +175,30 @@ do {
 }
 while (number > 0 && number <= monAge)
 
-*/
+
 console.log("le For");
 // For
 var number = 0;
 for (number; number < 10; number++) {
     console.log(number);
 }
-// Fin exercice 8
+ Fin exercice 8 */
+
+
+
+
+// Exercice 9 - Les Fonctions
+// Déclaration des variables
+
+var a = 4;
+var b = 3;
+var c = 8;
+var resultat = calcul(a, b, a, c);
+
+function calcul(number1, number2, number3, number4) {
+    return number1 * number2 * number3 / number4;
+}
+
+// Liste des console.log
+console.log(resultat);
+// Fin exercice 9
