@@ -206,10 +206,21 @@ Fin exercice 10*/
 
 
 
-/* Exercice 11 - Les Scope
+// Exercice 11 - Les Scope
 // Déclaration des variables
+var a = 4;
+var b = 3;
+var c = 8;
+var resultat = calcul(a, b, a, c);
 
+function calcul(number1, number2, number3, number4) {
+    var resultatCalcul = number1 * number2 * number3 / number4;
+    return resultatCalcul;
+}
+
+// Liste des console.log
+console.log(resultatCalcul);
 
 // Liste des console.log
 
-Fin exercice 11*/
+//Fin exercice 11
