@@ -103,7 +103,7 @@ console.log(!false);
 
 
 
-// Exercice 7 - Conditions
+/* Exercice 7 - Conditions
 
 // Mon test perso
 if (30 == 60) {
@@ -151,4 +151,35 @@ switch (couleurDuMonde) {
         console.log("Le monde est plein de couleurs");
 
 }
-// Fin exercice 7
+// Fin exercice 7*/
+
+
+
+// Exercice 8 - Boucles
+/* While
+console.log("While");
+
+var nombre = 3;
+while (nombre < 8) {
+    console.log(nombre);
+    nombre++;
+}
+
+console.log("le Do While");
+//Do While
+var number = 0;
+var monAge = 37;
+do {
+    console.log(number);
+    number++;
+}
+while (number > 0 && number <= monAge)
+
+*/
+console.log("le For");
+// For
+var number = 0;
+for (number; number < 10; number++) {
+    console.log(number);
+}
+// Fin exercice 8
