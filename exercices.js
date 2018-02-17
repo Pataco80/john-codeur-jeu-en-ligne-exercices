@@ -233,9 +233,26 @@ console.log(resultatCalcul);
 
 // Exercice 12 - Les Arrays
 // Déclaration des variables
+var fruits = ["pomme", "Bannane", "orange", "citron", "poire"];
+
+// for (var i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+console.log(fruits);
+
+fruits.push("Kiwi");
+console.log(fruits);
+
+fruits.pop();
+console.log(fruits);
 
 
-// Liste des console.log
+var agrumes = fruits.slice(2, 4);
+console.log(agrumes);
 
 
+var arayMultistype = [16, "poire", false, [4, true], "orange", 24];
+console.log(arayMultistype);
+
+console.log(arayMultistype[3][1]);
 //Fin exercice 12
