@@ -206,7 +206,7 @@ Fin exercice 10*/
 
 
 
-// Exercice 11 - Les Scope
+/* Exercice 11 - Les Scope
 // Déclaration des variables
 var a = 4;
 var b = 3;
@@ -217,7 +217,7 @@ var resultat = calculDeconseille(a, b, a, c);
 /*function calcul(number1, number2, number3, number4) {
     var resultatCalcul = number1 * number2 * number3 / number4;
     return resultatCalcul * 5;
-}*/
+}
 
 function calculDeconseille(number1, number2, number3, number4) {
     resultatCalcul = number1 * number2 * number3 / number4;
@@ -227,7 +227,7 @@ function calculDeconseille(number1, number2, number3, number4) {
 // Liste des console.log
 //console.log(resultat);
 console.log(resultatCalcul);
-//Fin exercice 11
+//Fin exercice 11*/
 
 
 
