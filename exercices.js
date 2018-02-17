@@ -228,3 +228,14 @@ function calculDeconseille(number1, number2, number3, number4) {
 //console.log(resultat);
 console.log(resultatCalcul);
 //Fin exercice 11
+
+
+
+// Exercice 12 - Les Arrays
+// Déclaration des variables
+
+
+// Liste des console.log
+
+
+//Fin exercice 12
