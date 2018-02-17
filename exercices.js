@@ -302,32 +302,23 @@ cat.miaou(4);
 
 
 // Exercice 14 - fonctions Constructeur
-var dateUnity = " ans";
-var dog = {
-    name: "choupette",
-    color: "blanc",
-    age: 4 + dateUnity
-};
-console.log(dog.color);
-
-console.log("----------------------------");
-for (var property in dog) {
-    console.log(dog[property]);
+function Cat(name, color, age) {
+    this.name = name;
+    this.color = color;
+    this.age = age;
+    this.miaou = function() {
+        console.log("Miaou " + this.name);
+    };
 }
-console.log("----------------------------");
 
-var cat = new Object();
-cat.name = "Fiona";
-cat.color = "Brown";
-cat.age = 6 + dateUnity;
-cat.miaou = function(quantity) {
-    while (quantity) {
-        console.log(quantity + " Miaou Miaou"); // J'ai fait le test sans le toString et ça fonctionne pareil
-        console.log(quantity.toString() + " Miaou");
-        quantity--;
-    }
-};
+var petitChat = new Cat("Fiona", "Brown", 6),
+    grosChat = new Cat("Horatio", "Red", 3);
 
-cat.miaou(4);
+
+console.log(petitChat);
+console.log(grosChat);
+
+petitChat.miaou();
+grosChat.miaou();
 
 //Fin exercice 14
