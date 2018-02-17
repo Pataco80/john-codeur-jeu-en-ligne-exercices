@@ -267,7 +267,7 @@ console.log(arayMultistype[3][1]);
     method1: function(parametre) { // Les paramètres sont optionels.
         // code de la fonction
     }
-};*/
+};
 
 var dateUnity = " ans";
 var dog = {
@@ -297,4 +297,37 @@ cat.miaou = function(quantity) {
 
 cat.miaou(4);
 
-//Fin exercice 13
+//Fin exercice 13*/
+
+
+
+// Exercice 14 - fonctions Constructeur
+var dateUnity = " ans";
+var dog = {
+    name: "choupette",
+    color: "blanc",
+    age: 4 + dateUnity
+};
+console.log(dog.color);
+
+console.log("----------------------------");
+for (var property in dog) {
+    console.log(dog[property]);
+}
+console.log("----------------------------");
+
+var cat = new Object();
+cat.name = "Fiona";
+cat.color = "Brown";
+cat.age = 6 + dateUnity;
+cat.miaou = function(quantity) {
+    while (quantity) {
+        console.log(quantity + " Miaou Miaou"); // J'ai fait le test sans le toString et ça fonctionne pareil
+        console.log(quantity.toString() + " Miaou");
+        quantity--;
+    }
+};
+
+cat.miaou(4);
+
+//Fin exercice 14
